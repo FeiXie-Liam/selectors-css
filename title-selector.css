@@ -1,0 +1,15 @@
+[title]{
+  background-color: red
+}
+
+[title="demo"]{
+  background-color: red
+}
+
+[title*="demo"]{
+  background-color: red
+}
+
+[title="zh"], [title^="zh-"]{
+  background-color: red
+}
